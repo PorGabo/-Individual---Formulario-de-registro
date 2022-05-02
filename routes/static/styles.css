@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(253, 251, 237);
+    padding: 10px;
+}
+body
+{
+    padding: 5%;
+}
+
+
+h1
+{
+    color: red;
+    font-family: Arial;
+    
+}
+
+h4
+{
+    color: black;
+    font-family: Arial;
+}
+

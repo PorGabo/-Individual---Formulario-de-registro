@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+Register please
+{% endblock %}
+
+{% block body %}
+<form action="{{ url_for('login') }}" method="post"> <!–– all is name bc of the type? like an id ––>
+    <input type="text" name="nombre" placeholder="Enter You Name">
+    <br>
+    <input type="text" name="apellido" placeholder="Enter your Last Name">
+    <br>
+    <input type="text" name="edad" placeholder="Enter Your Age">
+    <br>
+    <input type="text" name="nacionalidad" placeholder="Enter your country">
+    <br>
+    <input type="text" name="ocupacion" placeholder="Enter Your occupation">
+    <br>
+    <input type="text" name="celular" placeholder="Enter your phone number">
+    <br>
+    <input type="text" name="correo" placeholder="Enter your email">
+    <p>
+    <button style="width:250px">Submit</button>
+    
+    
+</form>
+{% endblock %}
